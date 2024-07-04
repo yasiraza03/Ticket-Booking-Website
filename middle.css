@@ -1,0 +1,20 @@
+.middle {
+    height: 400px;
+    background-color: #80684e;
+    display: flex;
+}
+.middle-container {
+    margin: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.middle-child {
+    background-color: wheat;
+    padding: 20px;
+    border-radius: 10px;
+    height: 80%;
+}
+.middle-child p {
+    font-weight: 500;
+}

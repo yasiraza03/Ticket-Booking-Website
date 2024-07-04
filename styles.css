@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+.top {
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    min-height: 600px;
+    background-image: url("./images/headerBackground.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    color: #80684e;
+    padding-left: 1rem;
+}
+.logo {
+    margin-left: 10px;
+}
+.brand-title {
+    font-size: 1.5rem;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 50px 0 0;
+    margin: 0 3rem;
+    max-width: 1300px;
+    color: #80684e;
+}
+nav {
+    flex: 1;
+    text-align: right;
+}
+.navlist ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.navlist ul li {
+    display: inline-block;
+    margin-right: 2.5rem;
+    vertical-align: middle;
+}
+
+.navlist ul li a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #80684e;
+}
+.header-container {
+    display: flex;
+    align-items: flex-start;
+    padding-right: 50px;
+    margin: 3rem;
+}
+.header-item {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.header-item h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.header-item p {
+    font-size: 1.5rem;
+}
+.header-btn {
+    margin-top: 2rem;
+    border-radius: 35px;
+    font-size: 1.5em;
+    padding: 1.5rem;
+    text-align: center;
+    background-color: #80684e;
+    color: #0c0f04;
+    width: 40%;
+    font-weight: bold;
+    text-decoration: none;
+}
+.header-btn:hover {
+    color: black;
+    background-color: wheat;
+}
+.event-list-wrapper {
+    background-color: #0c0f04;
+}
+.event-list-container {
+    display: grid;
+    grid-auto-rows: 100px;
+    grid-template-rows: 150px;
+    row-gap: 20px;
+    background-color: #0c0f04;
+    margin-left: 3rem;
+    margin-top: 0.5rem;
+    margin-right: 3rem;
+    height: 700px;
+}
+.event-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    justify-content: space-between;
+    background-color: #80684e;
+    color: #0c0f04;
+    border-radius: 5px;
+    padding: 10px;
+}
+.item-header {
+    color: #80684e;
+    background-color: #0c0f04;
+}
+.event-item h1 {
+    flex: 1 1 0;
+}
+.event-item p {
+    flex: 1 1 0;
+}
+.filter-btn {
+    margin-left: 3rem;
+    margin-top: 2rem;
+    background-color: #80684e;
+    border-radius: 10px;
+    padding: 0.5rem;
+    font-weight: bold;
+}

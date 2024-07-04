@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+.event-wrapper {
+    background-color: #0c0f04;
+    height: 800px;
+}
+.event {
+    display: grid;
+    row-gap: 1rem;
+    grid-template-columns: 200px 200px;
+    column-gap: 1rem;
+    grid-auto-rows: 50px;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.event h1,
+h2,
+.counter {
+    background-color: #9f8262;
+    color: #0c0f04;
+    border-radius: 5px;
+    padding: 10px;
+}
+.counter button {
+    width: 30px;
+    margin: 0 10px;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    height: 30px;
+}
+.link {
+    background-color: #9f8262;
+    grid-column: span 2;
+    color: #0c0f04;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.link:hover {
+    background-color: wheat;
+    color: black;
+    cursor: pointer;
+}
+.event select {
+    background-color: #9f8262;
+    color: #0c0f04;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    height: 50px;
+}
+.filter-btn:hover {
+    background-color: wheat;
+    cursor: pointer;
+}
+.profile:hover {
+    color: wheat;
+}

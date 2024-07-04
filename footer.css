@@ -1,0 +1,22 @@
+footer {
+    color: #80684e;
+    display: flex;
+    height: 300px;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+footer p,
+footer span,
+footer h1 {
+    line-height: 1.6;
+    margin: 10px;
+}
+.second div {
+    margin: 10px;
+}
+.third * {
+    margin: 5px;
+}
+.third a {
+    color: #80684e;
+}
